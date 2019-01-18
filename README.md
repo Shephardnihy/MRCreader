@@ -46,6 +46,6 @@ Matlab R2017b, other versions of Matlab not tested
 ### WriteType(Optional)
 The script supports a type conversion of image data. 
 
-Hint: data might be changed during conversion because the data range of different types is different(i.e. uint8: 0~255 and uint16: 0~65535). Know what you are doing when you are using this function.
+Hint: data might be changed during conversion because the data range of different types is different(i.e. uint8: from 0 to 255 and uint16: from 0 to 65535). Know what you are doing when you are using this function.
 
 - Input: 'int8', 'int16','single','uint16', no data conversion by default
